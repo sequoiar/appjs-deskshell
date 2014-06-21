@@ -8,7 +8,7 @@
     "deskshell-api": "~0.0.7",
     "freeport": "~1.0.2",
     "sihorton-vfs": "~0.3.3",
-    "socket.io": "~0.9.13",
+    "socket.io": "~1.0.6",
     "mime": "~1.2.11",
     "request": "~2.27.0",
     "q": "~0.9.7"
