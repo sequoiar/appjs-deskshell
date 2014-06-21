@@ -36,7 +36,7 @@ deskShell.envPath = deskShell.installDir + path.sep+ "deskshell-env.js";
 	.then(function() {
 		//force chrome path upgrade (windows code)
 		if (deskShell.env['chromiumPath'] == 'GoogleChromePortable/App/Chrome-bin/chrome.exe') {
-			deskShell.env['chromiumPath'] = 'DeskshellChrome/App/Chrome-bin/deskshell-chrome.exe';
+			///deskShell.env['chromiumPath'] = 'DeskshellChrome/App/Chrome-bin/deskshell-chrome.exe';
 		}
 		//old bug for people with the first releases of deskshell that have a config file that is not upgraded.
 		if (deskShell.env['deskShellExeDebug'] == 'deskshell-debug.exe') {
